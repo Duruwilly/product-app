@@ -140,7 +140,7 @@ const ProductEdit = () => {
         />
       }
     >
-      <div className="overflow-y-auto h-[651px] mt-1">
+      <div className="overflow-y-auto h-[600px] mt-1">
         <div className="flex justify-between items-center px-5 pb-2">
           <div className="py-[2px] px-[4px] border border-gray-100 rounded-full flex items-center justify-between w-[65px] text-xs text-grey">
             <p>Draft</p>

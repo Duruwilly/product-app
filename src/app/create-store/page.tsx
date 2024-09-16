@@ -59,7 +59,7 @@ const CreateStore = () => {
   return (
     <Template header={<TemplateHeader title="Get started" />}>
       <form onSubmit={formik.handleSubmit}>
-        <div className="px-5 overflow-y-auto h-[651px] mt-7">
+        <div className="px-5 overflow-y-auto h-[600px] mt-7">
           <ProgressBar currentStep={3} totalSteps={3} />
           <div className="w-full h-[140px] px-4 py-[10px] border rounded-xl flex flex-col items-center justify-center gap-3 relative mt-5">
             <input

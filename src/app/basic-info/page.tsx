@@ -47,7 +47,7 @@ const BasicInfo = () => {
   return (
     <Template header={<TemplateHeader title="Get started" />}>
       <form onSubmit={formik.handleSubmit}>
-        <div className="px-6 overflow-y-auto h-[651px] mt-7">
+        <div className="px-6 overflow-y-auto h-[600px] mt-7">
           <ProgressBar currentStep={2} totalSteps={3} />
           <div className="mt-5">
             <Header title="Complete profile setup" />

@@ -37,7 +37,7 @@ const GetStarted = () => {
   return (
     <Template header={<TemplateHeader title="Get started" />}>
       <form onSubmit={formik.handleSubmit}>
-        <div className="px-5 overflow-y-auto h-[651px] mt-7">
+        <div className="px-5 overflow-y-auto h-[600px] mt-7">
           <ProgressBar currentStep={1} totalSteps={3} />
           <div className="mt-5">
             <Header title="Enter your phone number or email to get started" />

@@ -41,7 +41,7 @@ const ProductPreview = () => {
 
   return (
     <Template header={<TemplateHeader elipses title="Product preview" />}>
-      <div className="overflow-y-auto h-[651px] pb-4">
+      <div className="overflow-y-auto h-[600px] pb-4">
         <Image
           src="/images/demoProductImg.png"
           alt="Welcome"
