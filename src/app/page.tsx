@@ -20,7 +20,7 @@ const WelcomePage = () => {
 
   return (
     <Template>
-      <div className="px-5 overflow-y-auto h-[651px]">
+      <div className="px-5 overflow-y-auto h-[600px]">
         <div className="flex flex-col justify-center items-center">
           <Image
             src="/images/welcome-illustration.png"
