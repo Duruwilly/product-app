@@ -21,7 +21,7 @@ const Input: React.FC<InputProps> = ({
     <div className="w-full my-2 relative">
       <label
         htmlFor={name}
-        className={`absolute left-4 transition-all duration-300 ease-in-out text-sm text-grey ${
+        className={`absolute left-4 transition-all duration-300 ease-in-out text-grey ${
           hasValue
             ? "top-[10%] transform -translate-y-[10%] text-[10px]"
             : "top-[50%] transform -translate-y-[50%] text-sm"
